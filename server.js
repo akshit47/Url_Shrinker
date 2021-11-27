@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 
 const app= express()
-const uri = "mongodb+srv://<username>:<password>@cluster0.li2jo.mongodb.net/url_Shortner?retryWrites=true&w=majority";
+const uri = "";
 mongoose.connect(uri, {
     useNewUrlParser : true,
     useUnifiedTopology : true
